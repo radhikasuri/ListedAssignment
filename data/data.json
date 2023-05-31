@@ -2,13 +2,13 @@
     "users": [
         {
             "id":1,
-            "emailAddress": "siddikkhan@gmail.com",
-            "password": "12345"
+            "emailAddress": "radhikasuri@gmail.com",
+            "password": "123456"
         },
         {
             "id":2,
-            "emailAddress": "shubham@gmail.com",
-            "password": "12345"
+            "emailAddress": "vansh@gmail.com",
+            "password": "123456"
         }
     ],
     "totalRevenue": "2,129,430",
