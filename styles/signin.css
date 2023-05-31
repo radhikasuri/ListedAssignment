@@ -1,0 +1,122 @@
+.mainDiv{
+    display: flex;
+}
+
+
+.login{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.sectioin-1{
+    background-color: black;
+    height: 100vh;
+}
+
+.sectioin-1 h1{
+    color: white;
+    margin-top: 45vh;
+    margin-left: 35%;
+    font-size: 3vw;
+}
+
+.login-form{
+    padding: 25%;
+    padding-top: 15%;
+    padding-bottom: 0;
+    background-color: whitesmoke;
+}
+
+.login-form h1{
+    font-size: 2vw;
+}
+
+.login-form h2{
+    font-size: 0.9vw;
+    margin-top: 2%;
+}
+
+.signin-option{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.signin-option a{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    background-color: white;
+    padding: 1.5% 4%;
+    border-radius: 15px;
+    width: 40%;
+    text-decoration: none;
+}
+
+.signin-option a p{
+    color: rgba(114, 113, 113, 0.697) ;
+    font-size: 12px;
+}
+
+.login-form form {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    padding: 5% 7%;
+    border-radius: 15px;
+}
+
+.login-form form label{
+    font-size: 1vw;
+}
+
+#pass-label{
+    margin-top: 5%;
+}
+
+.login-form form input{
+    margin-top: 2%;
+    font-size: 1vw;
+    padding: 2% 4%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(185, 185, 185, 0.239);
+}
+
+.login-form form a{
+    text-decoration: none;
+    color: rgb(0, 145, 255);
+    font-size: 0.9vw;
+    margin-top: 5%;
+}
+
+.login-form form button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 2%;
+    font-size: 1rem;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.register-acc{
+    /* text-align: center; */
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 1vw;
+}
+
+.register-acc a{
+    color: rgb(0, 145, 255) ;
+    text-decoration: none;
+}
+
+.register-acc p{
+    color: rgba(114, 113, 113, 0.697);
+}

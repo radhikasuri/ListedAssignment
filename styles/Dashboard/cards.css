@@ -1,0 +1,25 @@
+.mainCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 36px;
+    margin: 7px 25px;
+
+}
+
+.mainCards > div {
+    height: 85px;
+    border-radius: 20px;
+    position: relative;
+    padding: 0px 11px;
+}
+
+.mainCards > div > div {
+    margin-top: 11%;
+}
+
+.boldData {
+    margin: 0;
+    font-size: 21px;
+    font-weight: bold;
+}

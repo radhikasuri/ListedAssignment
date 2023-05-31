@@ -1,0 +1,31 @@
+.maindiv{
+    background-color: black;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    border-radius: 21px;
+}
+
+.innerClass{
+    color:  white;
+    display: flex;
+    gap:40px;
+    flex-direction: column;
+    
+}
+.content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.innerClass2{
+    position: absolute;
+    bottom: 5%;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+     color: white;
+     left: 5%;
+}

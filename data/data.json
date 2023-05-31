@@ -1,0 +1,43 @@
+{
+    "users": [
+        {
+            "id":1,
+            "emailAddress": "siddikkhan@gmail.com",
+            "password": "12345"
+        },
+        {
+            "id":2,
+            "emailAddress": "shubham@gmail.com",
+            "password": "12345"
+        }
+    ],
+    "totalRevenue": "2,129,430",
+    "transaction": "1,520",
+    "totalLikes": "9,721",
+    "totalUser": 892,
+    "chartData": [
+        {
+            "label": "Guest",
+            "data": [400, 200, 300, 220],
+            "borderWidth": 2,
+            "borderColor": "rgba(233, 160, 160, 1)",
+            "tension": 0.5
+        },
+        {
+            "label": "User",
+            "data": [420, 110, 450, 180],
+            "borderWidth": 2,
+            "borderColor": "rgba(155, 221, 124, 1)",
+            "tension": 0.5
+        }
+    ],
+    "pieChartData": {
+        "labels": ["Basic Tees", "Custom Short Pants", "Super Hoodies"],
+        "data": [55, 31, 14],
+        "backgroundColor": [
+            "rgba(152, 216, 158, 1)",
+            "rgba(246, 220, 125, 1)",
+            "#ee8484"
+        ]
+    }
+}
